@@ -15,4 +15,4 @@ Or interactively:
     ghci -isrc app/Main.hs
     ghci> eval [("x",5)] (Add (Var "x") (Lit 2))
 
-Imperative version: `python3 python/eval_imperative.py`
+Imperative version: `python3 eval/eval_imperative.py`
